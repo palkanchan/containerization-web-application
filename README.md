@@ -62,8 +62,6 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 
-![Screenshot 2025-04-25 143055](https://github.com/user-attachments/assets/0c88ff9e-4f15-4952-a9ab-4f73444239b8)
-
 Step 10: Setup EKS Cluster
 
 eksctl create cluster --name three-tier-cluster --region ap-south-1 --node-type t2.medium --nodes-min 2 --nodes-max 2
