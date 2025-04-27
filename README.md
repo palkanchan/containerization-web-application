@@ -51,7 +51,7 @@ Step 7: Push this image on ECR
 ![Screenshot 2025-04-25 142252](https://github.com/user-attachments/assets/ae958091-74ab-4973-9f4c-23ee9c47e7dd)
 
 Step 8: Install Kubectl
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+curl -o kubectl https://amazon-eks.s3.ap-south-1.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin
 kubectl version --short --client
